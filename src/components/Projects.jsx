@@ -25,6 +25,30 @@ export default function Projects() {
           </a>
         </div>
       </div>
+
+      {/* StockFlow Project Card */}
+      <div className="mt-8 max-w-3xl mx-auto bg-gray-900 p-6 rounded-lg text-left">
+        
+        <h3 className="text-2xl font-semibold">StockFlow</h3>
+
+        <p className="mt-2 text-gray-300">
+          Zerodha-inspired stock trading dashboard with real-time holdings, positions tracking, and order management.
+        </p>
+
+        <p className="mt-3 text-sm text-gray-400">
+          Tech: React, Node, Express, MongoDB, Passport.js
+        </p>
+
+        <div className="mt-4 space-x-4">
+          <a href="https://stockflow-fullstack.onrender.com" className="text-blue-400 hover:underline">
+            Live
+          </a>
+          <a href="https://github.com/student-LnctU26/StockFlow" className="text-blue-400 hover:underline">
+            GitHub
+          </a>
+        </div>
+      </div>
+
     </div>
   );
 }
