@@ -1,4 +1,4 @@
-onst projects = [
+const projects = [
   {
     title: "StockFlow",
     desc: "Zerodha-inspired stock trading dashboard with real-time holdings, positions tracking, and order management. Includes secure session-based authentication.",
